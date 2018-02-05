@@ -47,37 +47,40 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 
 "Vim-javascript"
-Bundle 'pangloss/vim-javascript'
+Plugin 'pangloss/vim-javascript'
 
 "Vim-JSX"
-Bundle 'neoclide/vim-jsx-improve'
+Plugin 'neoclide/vim-jsx-improve'
 
 " Powerline
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 
 " NERDTree
-Bundle 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 
 " Tmux Navigator
-Bundle 'christoomey/vim-tmux-navigator'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " Git Gutter
-Bundle 'airblade/vim-gitgutter'
+Plugin 'airblade/vim-gitgutter'
 
 " Color Schemes
 Bundle "daylerees/colour-schemes", { "rtp": "vim/" }
 
 " FZF
-Bundle 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
-Bundle 'junegunn/fzf.vim'
+Plugin 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plugin 'junegunn/fzf.vim'
 
 " Prettier
-Bundle 'prettier/vim-prettier', {
+Plugin 'prettier/vim-prettier', {
   \ 'do': 'yarn install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown'] }
 
 " Vim-surround
-Bundle 'tpope/vim-surround'
+Plugin 'tpope/vim-surround'
+
+" Ale
+Plugin 'w0rp/ale'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
