@@ -135,7 +135,7 @@ vnoremap <Leader>y "+y
 nnoremap <silent> <leader>t :Files<cr>
 
 " Find in files
-map :f :Files 
+map <Leader>f :Files 
 
 " Open an interactive buffer list
 nnoremap <silent> <leader>b :Buffers<cr>
