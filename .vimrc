@@ -111,7 +111,7 @@ set rtp+=/usr/local/opt/fzf
 " --glob: Additional conditions for search (in this case ignore everything in the .git/ folder)
 " --color: Search color options
 
-command! -bang -nargs=* F call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --glob "!.git/*" --glob "!node_modules/" --color "always" '.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)
+command! -bang -nargs=* Find call fzf#vim#grep('rg --column --line-number --no-heading --fixed-strings --ignore-case --no-ignore --hidden --follow --glob "!.git/*" --color "always" '.shellescape(<q-args>).'| tr -d "\017"', 1, <bang>0)
 
 " Make NERDTree prettier
 let NERDTreeMinimalUI = 1
@@ -135,7 +135,7 @@ vnoremap <Leader>y "+y
 nnoremap <silent> <leader>t :Files<cr>
 
 " Find in files
-map <Leader>f :Files 
+map <Leader>f :Find
 
 " Open an interactive buffer list
 nnoremap <silent> <leader>b :Buffers<cr>
