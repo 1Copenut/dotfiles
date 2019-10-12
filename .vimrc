@@ -35,6 +35,7 @@ set incsearch
 
 " Remap leader to semi-colon
 :let mapleader = ";"
+nmap ; :
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
