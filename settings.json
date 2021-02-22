@@ -16,5 +16,6 @@
   "terminal.integrated.fontSize": 14,
   "typescript.updateImportsOnFileMove.enabled": "always",
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "TronLight"
+  "workbench.colorTheme": "TronLight",
+  "telemetry.enableTelemetry": false
 }
