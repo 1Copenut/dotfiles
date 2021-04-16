@@ -12,10 +12,12 @@
   },
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
-  "prettier.eslintIntegration": true,
   "terminal.integrated.fontSize": 14,
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "TronLight",
-  "telemetry.enableTelemetry": false
+  "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+  "telemetry.enableTelemetry": false,
+  "liquid.format": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
