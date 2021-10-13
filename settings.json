@@ -13,9 +13,9 @@
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
   "terminal.integrated.fontSize": 14,
-  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "prompt",
   "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
-  "telemetry.enableTelemetry": false,
+  "telemetry.telemetryLevel": "off",
   "liquid.format": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
