@@ -1,23 +1,37 @@
 {
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
-  "editor.fontSize": 15,
-  "editor.formatOnSave": true,
-  "editor.lineHeight": 24,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": false,
+  "editor.lineHeight": 27,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "files.associations": {
     "*.css": "css",
     "*.html": "html"
   },
+  "css.validate": false,
+  "files.insertFinalNewline": true,
   "javascript.format.enable": false,
   "javascript.validate.enable": false,
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 16,
   "typescript.updateImportsOnFileMove.enabled": "prompt",
-  "workbench.colorTheme": "Winter is Coming (Dark Blue - No Italics)",
+  "workbench.colorTheme": "Rosé Pine",
   "telemetry.telemetryLevel": "off",
-  "liquid.format": true,
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.formatOnSave": true
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.iconTheme": "file-icons",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "window.zoomLevel": 1,
+  "gopls": {
+    "experimentalWorkspaceModule": true,
   }
 }
