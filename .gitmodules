@@ -13,3 +13,9 @@
 [submodule "fugitive"]
 	path = fugitive
 	url = https://tpope.io/vim/fugitive.git
+[submodule "fzf"]
+	path = fzf
+	url = https://github.com/junegunn/fzf
+[submodule "fzf.vim"]
+	path = fzf.vim
+	url = https://github.com/junegunn/fzf.vim
