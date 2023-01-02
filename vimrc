@@ -25,6 +25,9 @@ set hlsearch
 " Highlight /pattern while typing
 set incsearch
 
+" Handle line wraps in Markdown correctly
+autocmd bufreadpre *.md setlocal textwidth=0
+
 " Remap leader to semi-colon
 :let mapleader = ";"
 nmap ; :
@@ -37,7 +40,7 @@ let g:delimitMate_expand_space = 1
 " Escape Insert mode with 'jk'
 :inoremap jk <Esc>
 
-" Copy to clipboard
+" Copy to clipboard after highlighting in Visual mode
 vnoremap <Leader>y "+y
 
 " Open an interactive buffer list
