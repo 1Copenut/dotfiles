@@ -25,8 +25,9 @@ set hlsearch
 " Highlight /pattern while typing
 set incsearch
 
-" Handle line wraps in Markdown correctly
+" Handle line wraps in Markdown and text files correctly
 autocmd bufreadpre *.md setlocal textwidth=0
+autocmd bufreadpre *.txt setlocal textwidth=0
 
 " Remap leader to semi-colon
 :let mapleader = ";"
