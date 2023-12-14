@@ -78,16 +78,16 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-# Composer alias
-alias composer="php /usr/local/bin/composer.phar"
 
-export PATH="$HOME/.rbenv/bin:$HOME/.composer/vendor/bin:$PATH"
+# Set up rbenv
 eval "$(rbenv init -)"
 export PATH="$PATH"
 
+# Set up nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
+# Set up fzf
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # --files: List files that would be searched but do not search
