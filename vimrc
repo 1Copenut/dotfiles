@@ -80,6 +80,3 @@ let NERDTreeDirArrows = 1
 
 " Show hidden files in NERDTree by default
 let NERDTreeShowHidden = 1
-
-" Open an interactive buffer list
-nnoremap <silent> <leader>b :Buffers<cr>
